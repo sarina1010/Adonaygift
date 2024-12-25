@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift for a Friend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Childhood Memories</h1>
+
+        <!-- Slide section for displaying images -->
+        <div class="slide-container">
+            <img id="slide" src="" alt="Childhood Photo" class="hidden">
+        </div>
+
+        <!-- Question and input section -->
+        <div class="question-container">
+            <p id="question">What is the sum of my birthday and your birthday?</p>
+            <input type="text" id="morse-code" placeholder="Enter Morse code" aria-label="Enter Morse code" autofocus>
+            <button id="submit-btn" onclick="checkAnswer()" aria-label="Submit answer">Submit</button>
+        </div>
+
+        <!-- Message section for feedback -->
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
